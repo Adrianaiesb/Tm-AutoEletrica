@@ -1,0 +1,30 @@
+.fundo {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgb(29, 0, 156) 0%, rgb(0, 0, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.carrossel {
+  margin-bottom: 5rem;
+}
+
+.menunav {
+    color: white;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .menunav a {
+    text-decoration: none;
+  }
+  
