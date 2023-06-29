@@ -41,7 +41,7 @@ const index = () => {
                 <th>#</th>
                 <th>Funcionário</th>
                 <th>Data de entrada</th>
-                <th>Data da comulta</th>
+                <th>Data da consulta</th>
               </tr>
             </thead>
             <tbody>

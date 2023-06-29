@@ -81,19 +81,19 @@ const form = () => {
               )}
             </Form.Group>
 
-            <Form.Group className="mb-3 text-white" controlId="datacomulta">
+            <Form.Group className="mb-3 text-white" controlId="dataconsulta">
               <Form.Label>
-                <strong>Data da Comulta:</strong>
+                <strong>Data da Consulta:</strong>
               </Form.Label>
               <Form.Control
-                isInvalid={errors.datacomulta}
+                isInvalid={errors.dataconsulta}
                 type="date"
-                placeholder="Selecione a data da comulta..."
-                {...register("datacomulta")}
+                placeholder="Selecione a data da consulta..."
+                {...register("dataconsulta")}
               />
-              {errors.datacomulta && (
+              {errors.dataconsulta && (
                 <small className="error-message bg-danger text-white">
-                  {errors.datacomulta.message}
+                  {errors.dataconsulta.message}
                 </small>
               )}
             </Form.Group>
